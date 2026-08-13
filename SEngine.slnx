@@ -2,6 +2,7 @@
     <Folder Name="/tests/">
     </Folder>
     <Folder Name="/src/">
+        <Project Path="src/SEngine.Analyzers/SEngine.Analyzers.csproj" />
     </Folder>
     <Folder Name="/tools/">
     </Folder>
