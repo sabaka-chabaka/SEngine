@@ -1,1 +1,10 @@
-<Solution />
+<Solution>
+    <Folder Name="/tests/">
+    </Folder>
+    <Folder Name="/src/">
+    </Folder>
+    <Folder Name="/tools/">
+    </Folder>
+    <Folder Name="/samples/">
+    </Folder>
+</Solution>
