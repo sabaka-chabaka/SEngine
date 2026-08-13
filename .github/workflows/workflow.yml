@@ -1,0 +1,23 @@
+name: SEngine CI
+
+on:
+  push: 
+    branches:
+      - master
+
+jobs: 
+  try-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v5
+        name: Checkout
+        
+      - uses: actions/setup-dotnet@v6
+        name: Setup .NET
+      
+      - name: Restore
+        run: dotnet restore
+        
+      - name: Build
+        run: dotnet build --no-restore
