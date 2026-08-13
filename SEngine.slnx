@@ -3,6 +3,7 @@
     </Folder>
     <Folder Name="/src/">
         <Project Path="src/SEngine.Analyzers/SEngine.Analyzers.csproj" />
+        <Project Path="src/SEngine.Core.Abstractions/SEngine.Core.Abstractions.csproj" />
     </Folder>
     <Folder Name="/tools/">
     </Folder>
